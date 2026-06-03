@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bảng Giá Dịch Vụ - Home Nail</title>
+    <style>
+      /* Cấu hình nền toàn trang */
+      body {
+        background-color: #fbe6e3; /* Màu nền hồng nude nhẹ hợp với màu ảnh */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        padding: 10px; /* Giữ khoảng cách an toàn ở các cạnh màn hình điện thoại */
+      }
+
+      /* Bộ khung CSS giúp ảnh tự động thích ứng (Responsive) */
+      .bang-gia-img {
+        max-width: 100%; /* Ảnh không bao giờ to quá chiều rộng màn hình */
+        height: auto; /* Giữ nguyên tỷ lệ chuẩn của ảnh, KHÔNG lo bị bóp méo */
+        max-height: 96vh; /* Giới hạn chiều cao vừa vặn màn hình máy tính để không phải cuộn trang */
+        object-fit: contain; /* Đảm bảo ảnh luôn nằm trọn vẹn bên trong khung nhìn */
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08); /* Đổ bóng mờ cho ảnh trông sang xịn mịn hơn */
+        border-radius: 4px; /* Bo nhẹ góc ảnh */
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Thẻ hiển thị hình ảnh đã xử lý bỏ phần đen -->
+    <img
+      src="img/Gemini_Generated_Image_wpmhnowpmhnowpmh.png"
+      alt="Bảng giá Home Nail"
+      class="bang-gia-img"
+    />
+  </body>
+</html>
